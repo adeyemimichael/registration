@@ -49,7 +49,7 @@ export default function MainLink() {
   };
  
   return (
-    <div className='w-screen h-screen flex flex-col justify-center items-center bg-[#f6f6f6]'>
+    <div className='w-screen h-screen flex flex-col justify-center items-center bg-[#fff]'>
       
     <form className="flex md:w-[50%] flex-col gap-4 bg-gray-100 p-6 font-brico  md:h-screen  rounded-lg mb-6 mt-6 scroll-smooth hover:scroll-auto" onSubmit={handleSubmit}>
     <h1 className='md:font-normal font-medium font-brico  md:text-[35px] text-[30px] text-black text-center  tracking-tight leading-relaxed mt-2'>Get your Ticket here &#x2705;</h1>
