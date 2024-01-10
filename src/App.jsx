@@ -8,7 +8,8 @@ import {
   Route,
   createRoutesFromElements,
   RouterProvider, } from "react-router-dom"
-import Registerlayout from "./Registerlayout"
+// import Registerlayout from "./Registerlayout"
+import MainLink from "./MainLink"
 
 // export default function ShadowInputs() {
 
@@ -200,7 +201,7 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       
-       <Route path='/' element={<Registerlayout /> }>
+       <Route path='/' element={<MainLink/> }>
         
         </Route> 
     
