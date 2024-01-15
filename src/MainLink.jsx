@@ -44,7 +44,7 @@ export default function MainLink() {
       resetForm();
       setTimeout(() => {
         setShowSuccess(false);
-      }, 4000); // 4 seconds in milliseconds
+      }, 6000); // 6 seconds in milliseconds
     });
   };
  

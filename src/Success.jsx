@@ -27,7 +27,10 @@ const Success = () => {
       transition={{}}
     >
       <div style={lottieContainerStyle}>{View}</div>
-     You have successfully registered for this event,Thank you!
+     You have successfully registered for this event,
+     Join an amazing community <a href="https://chat.whatsapp.com/G0bH6IAFWuy7XyIsHsCrLU" className="underline"> HERE &#x2763;</a>
+     Thank you!
+     
     </motion.div>
   );
 };
